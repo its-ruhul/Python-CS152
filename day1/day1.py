@@ -1,0 +1,1 @@
+print('"Hello World" \n % Hello World % \n \t \\\\ Hello World \\\\')
