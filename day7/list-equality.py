@@ -23,6 +23,8 @@ def InputList():
     elem = input(inputText)
     array.append(elem)
 
+  print("The array you entered:", array)
+
   return array
 
 array1 = InputList()

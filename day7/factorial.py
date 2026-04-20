@@ -7,5 +7,5 @@ def Factorial(fact):
 
   return factorial
 
-a = input("Enter the number to find its factorial: ")
-print(a)
+a = int(input("Enter the number to find its factorial: "))
+print(Factorial(a))

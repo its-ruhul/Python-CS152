@@ -13,8 +13,8 @@ def Divide(a,b):
 def Arithematic():
 
   print("\n SELECT THE DESIRED OPERATION:")
-  print("Type [-] for subtract \n Type [+] for addition")
-  print("Type [*] for mulitiplication \n Type [/] for division")
+  print("Type [-] for subtract \nType [+] for addition")
+  print("Type [*] for mulitiplication \nType [/] for division")
 
   func = input("Enter the operation you want to perform: ")
 
