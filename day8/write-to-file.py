@@ -12,4 +12,3 @@ def WriteToFile():
   print("Successfully written to file.")
 
 WriteToFile()
-

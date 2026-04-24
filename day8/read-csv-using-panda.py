@@ -3,6 +3,7 @@ import pandas as pd
 def ReadCSV():
 
   dataFile = pd.read_csv('example.csv')
+  print("Successfully read the csv file")
 
   first5 = dataFile.head(5)
   last5 = dataFile.tail(5)
