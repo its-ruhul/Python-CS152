@@ -13,3 +13,5 @@ def ReadCSV():
 
   print("\nLast five elements are: ")
   print(last5)
+
+ReadCSV()
