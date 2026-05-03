@@ -5,9 +5,10 @@ def reverseLines():
   lines = file.readlines()
   file.close()
 
-  lines.reverse()
+  for i in lines:
+    i = i[::-1]
 
-  lines[0] += '\n'
+  lines[-1] += '\n'
 
   for i in lines:
     print(i, end="")
